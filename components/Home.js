@@ -9,7 +9,7 @@ import styles from "../styles/Home.module.css";
 function Home() {
   const [MoviesList, setMoviesList] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/movies")
+    fetch("https://mymov-back.vercel.app/movies")
       .then((response) => response.json())
       .then((data) => {
         setMoviesList(data.movies);
