@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
+import "antd/dist/antd.css";
 import { Popover, Button } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import Movie from "./Movie";
-import "antd/dist/antd.css";
 import styles from "../styles/Home.module.css";
 
 function Home() {
