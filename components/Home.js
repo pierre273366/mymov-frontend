@@ -93,7 +93,7 @@ function Home() {
     const poster = `https://image.tmdb.org/t/p/w500${data.poster_path}`;
     const tronq =
       data.overview.length >= 250
-        ? data.overview.slice(0, 250) + "..."
+        ? data.overview.slice(0, 220) + "..."
         : data.overview;
     return (
       <Movie
